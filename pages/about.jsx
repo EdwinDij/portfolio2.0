@@ -6,10 +6,9 @@ import { motion } from "framer-motion";
 export default function about() {
   return (
     <motion.div
-    initial={{y: 200, opacity:0.2}}
-    animate={{y: 0, transition: 4, opacity:1}}
-
-    
+    initial={{y:200, opacity:0}}
+    animate={{y:0, transition:4, opacity:1}}
+    exit={{scale:0.2, opacity:0, transition:5}}
     >
       <div className="about-container">
         <div className="container-left container-size">

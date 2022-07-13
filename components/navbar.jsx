@@ -5,8 +5,7 @@ export default function navbar() {
 
 
   return (
-    <div className='header'>
-        <nav>
+    <nav className='header'>
         <Link href='/'><a className='ed'>Ed</a></Link>
         <div className="nav-link">
             <Link href="/about"><a>À propos</a></Link>
@@ -30,7 +29,6 @@ export default function navbar() {
               />
             </a>
         </div>
-        </nav>
-    </div>
+    </nav>
   )
 }

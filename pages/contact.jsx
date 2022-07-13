@@ -1,7 +1,6 @@
 import React from 'react'
-import Navbar from '../components/navbar'
 import Swal from 'sweetalert2'
-
+import { motion } from "framer-motion"
 export default function contact() {
 
     async function handleOnSubmit (e) {
@@ -38,7 +37,10 @@ export default function contact() {
     }
 
     return (
-        <div>
+        <motion.div
+        initial={{y:200, opacity:0}}
+        animate={{y:0, transition:4, opacity:1}}
+        exit={{scale:0.2, opacity:0, transition:5}}>
             <div className="contact-box">
                 <h2 className='title-contact'>Contact</h2>
                 <div className='form'>
@@ -51,6 +53,6 @@ export default function contact() {
                 </div>
             </div>
 
-        </div>
+        </motion.div>
     )
 }

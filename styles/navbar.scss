@@ -3,26 +3,25 @@
 .header {
     margin-right: 2%;
     margin-left: 2%;
-    
-}
-
-a:active {
-    color: red;
 }
 
 nav {
-display: flex;
-align-items: center;
-justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .nav-link {
     display: flex;
     gap: 1rem;
+    font-size: 20px;
+    @media screen and(max-width:768px) {
+        font-size: 14px;
+    }
 }
 
 .ed {
     color: $secondary-color;
     font-family: Dancing Script;
     font-size: 36px;
-  }
+}
