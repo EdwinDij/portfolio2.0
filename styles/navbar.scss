@@ -1,0 +1,20 @@
+.header {
+    margin-right: 2%;
+    margin-left: 5%;
+}
+
+nav {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.nav-link {
+    display: flex;
+    gap: 1rem;
+}
+
+.ed {
+    color:#91C4F2;
+    font-family: Dancing Script;
+  }
