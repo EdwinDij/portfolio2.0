@@ -1,10 +1,15 @@
-import Navbar from "../components/navbar"
+import Head from 'next/head'
 import HelloWorld from "../components/helloworld"
 
 export default function Home() {
   return (
-    <div>
-      <HelloWorld />
-    </div>
+    <>
+      <Head>
+        <title>Portfolio - Edwin Dijeont</title>
+      </Head>
+      <div>
+        <HelloWorld />
+      </div>
+    </>
   )
 }
