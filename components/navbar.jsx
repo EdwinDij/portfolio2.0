@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import Image from 'next/image'
+import Link from 'next/link';
+import Image from 'next/image';
 
 export default function navbar() {
   return (
@@ -9,7 +9,7 @@ export default function navbar() {
         <div className="nav-link">
             <Link href="/about"><a>À propos</a></Link>
             <Link href="/projects"><a>Mes projets</a></Link>
-            <a href="#">Cv</a>
+            <a href={"/Edwin_Dijeont_CV.pdf"} target="_blank" rel="noopener noreferrer">Cv</a>
             <Link href="/contact"><a>Contact</a></Link>
             <a href="https://github.com/EdwinDij" rel='noreferrer' target="_blank" title="Github profile" >
               <Image 
