@@ -1,4 +1,4 @@
-
+import Link from 'next/link';
 
 export default function helloworld() {
     return (
@@ -11,7 +11,7 @@ export default function helloworld() {
                     <span className='letter-color'> A</span>méliorer.
                 </h1>
                 <div className="getIn">
-                    <p className='getIn-text'> Jump in ! </p>
+                    <Link href="/projects"><a className='getIn-text'> Jump in ! </a></Link>
                 </div>
             </div>
         </div>
