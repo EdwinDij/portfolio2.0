@@ -1,6 +1,6 @@
-import React from 'react'
-import Navbar from '../components/navbar'
-import Image from 'next/image'
+import React from 'react';
+import Navbar from '../components/navbar';
+import Image from 'next/image';
 import Typewriter from 'typewriter-effect';
 
 
@@ -8,7 +8,7 @@ export default function about() {
   return (
     <div>
       <Navbar />
-      <div className="container">
+      <div className="about-container">
         <div className="container-left container-size">
           <Image
           src="/me-memoji.png"

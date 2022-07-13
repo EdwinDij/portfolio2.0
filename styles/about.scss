@@ -1,11 +1,15 @@
 @import '../styles/variable.scss';
 
-.container {
+.about-container {
     display: flex;
     justify-content: space-around;
     height: 100vh;
     align-items: center;
     flex-direction: row;
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 .about-title {
@@ -25,13 +29,18 @@
 
 .Typewriter {
     font-size: 50px;
+    @media screen and (max-width:768px) {
+        font-size: 40px;
+        text-align: center;        
+    }
 }
 
 .presentation {
     width: 70%;
     font-size: 20px;
-}
-
-.presentation {
     color: $ternary-color;
+    @media screen and (max-width:768px) {
+        width: auto;
+        text-align: justify;
+    }
 }
