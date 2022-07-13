@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { motion } from "framer-motion"
+import Link from 'next/link'
 
 export default function projects() {
   return (
@@ -157,7 +158,7 @@ export default function projects() {
               />
               <h3 className='white'>NextJs</h3>
             </figcaption>
-            <a href="" target="_blank" rel="noopener noreferrer"></a>
+            <Link href="/"><a></a></Link>
           </figure>
         </div>
       </div>
