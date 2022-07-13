@@ -1,17 +1,13 @@
 import React from 'react'
+import Navbar from '../components/navbar'
 
 export default function about() {
-  return (<div>
-    <div id='about'>abouaezaezaeat</div>
-    <div id='about'>abouaezaezaeat</div>
-    <div id='about'>abouaezaezaeat</div>
-    <div id='about'>abouaezaezaeat</div>
-    <div id='about'>abouaezaezaeat</div>
-    <div id='about'>abouaezaezaeat</div>
-    <div id='about'>abouaezaezaeat</div>
-    <div id='about'>abouaezaezaeat</div>
-    <div id='about'>abouaezaezaeat</div>
-    <div id='about'>abouaezaezaeat</div>
+  return (
+    <div>
+      <Navbar />
+      <div className="container">
+        
+      </div>
     </div>
   )
 }
