@@ -5,7 +5,6 @@ import Image from 'next/image'
 export default function projects() {
   return (
     <div>
-      <Navbar />
       <h1 className='title-project'> Projets</h1>
       <div className="project-container">
         <div className="project">

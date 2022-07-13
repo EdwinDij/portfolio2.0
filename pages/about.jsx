@@ -1,13 +1,16 @@
 import React from 'react';
-import Navbar from '../components/navbar';
 import Image from 'next/image';
 import Typewriter from 'typewriter-effect';
-
+import { motion } from "framer-motion";
 
 export default function about() {
   return (
-    <div>
-      <Navbar />
+    <motion.div
+    initial={{y: 200, opacity:0.2}}
+    animate={{y: 0, transition: 4, opacity:1}}
+
+    
+    >
       <div className="about-container">
         <div className="container-left container-size">
           <Image
@@ -55,6 +58,6 @@ export default function about() {
           </p>
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }

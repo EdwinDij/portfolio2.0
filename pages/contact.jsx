@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/navbar'
+import Swal from 'sweetalert2'
 
 export default function contact() {
 
@@ -13,13 +14,31 @@ export default function contact() {
         await fetch('/api/mail', {
             method: 'POST',
             body: JSON.stringify(formData),
+        }).then ((res) => {
+            console.log(res)
+            if(res.status === 200) {
+                Swal.fire({
+                    position: 'center',
+                    icon: 'success',
+                    title: 'Votre message a bien été envoyé !',
+                    showConfirmButton: false,
+                    timer: 2000
+                  })
+            } else {
+                Swal.fire({
+                    position: 'center',
+                    icon: 'error',
+                    title: 'Si ce message apparaît contactez-moi sur: edwin.d899@gmail.com.',
+                    showConfirmButton: false,
+                    timer: 1500
+                  })
+            }
         })
-        console.log(formData)
+        
     }
 
     return (
         <div>
-            <Navbar />
             <div className="contact-box">
                 <h2 className='title-contact'>Contact</h2>
                 <div className='form'>

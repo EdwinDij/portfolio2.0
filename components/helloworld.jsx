@@ -10,9 +10,11 @@ export default function helloworld() {
                     <span className='letter-color'> C</span>oncevoir, <br></br> 
                     <span className='letter-color'> A</span>méliorer.
                 </h1>
+                <Link href="/projects">
                 <div className="getIn">
-                    <Link href="/projects"><a className='getIn-text'> Jump in ! </a></Link>
+                    <a className='getIn-text'> Jump in ! </a>
                 </div>
+                </Link>
             </div>
         </div>
     )
