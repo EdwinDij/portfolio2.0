@@ -1,5 +1,5 @@
-import Navbar from "./components/navbar"
-import HelloWorld from "./components/helloworld"
+import Navbar from "../components/navbar"
+import HelloWorld from "../components/helloworld"
 
 export default function Home() {
   return (
