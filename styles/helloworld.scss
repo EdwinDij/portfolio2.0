@@ -1,9 +1,37 @@
+@import './variable.scss';
 .title-zone {
     height: 100vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    gap: 4rem;
 }
+
+.letter-color {
+    color: $ternary-color;
+    font-size: 45px;
+}
+
 .hook {
     text-align: center;
+}
+
+.getIn {
+    margin: 0 auto;
+    border: $secondary-color 2px solid;
+    background: linear-gradient(to left, $primary-color 50%, $ternary-color 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease;
+}
+
+.getIn:hover {
+   cursor: pointer;
+   background-position: left bottom;
+}
+
+.getIn-text {
+    margin: 1rem 2rem;
+    font-size: 20px;
+    font-weight: 500;
 }

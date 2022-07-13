@@ -1,3 +1,5 @@
+@import './variable.scss';
+
 .header {
     margin-right: 2%;
     margin-left: 5%;
@@ -15,6 +17,6 @@ justify-content: space-between;
 }
 
 .ed {
-    color:#91C4F2;
+    color: $secondary-color;
     font-family: Dancing Script;
   }
