@@ -48,10 +48,10 @@ export default function about() {
           }}
           />
           <p className="presentation">
-            Je m&apos;applle <span>Edwin</span>, un développeur junior très interéssé par le front-end surtout par le coté créatif du front-end.
-            Et c&apos;est justement ce coté créatif que j&apos;exploite de mon coté et que j&apos;aimerai exploité dans des projets enrichissants.
-            En plus d&apos;étudier des langages du web je m&apos;intéresse de près a l&apos;UX design.
-            Apprendre ne me fait pas peur, bien au contraire.
+            Je m&apos;applle <span>Edwin</span>, un développeur junior très interéssé par le coté créatif et technique du front-end.<br></br>
+            <br></br>
+            C&apos;est justement ce coté créatif que j&apos;aimerai exploiter dans des projets enrichissants.
+            En plus d&apos;étudier des langages du web, je m&apos;intéresse de près à l&apos;UX design.
           </p>
         </div>
       </div>

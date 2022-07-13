@@ -7,7 +7,7 @@ export default function navbar() {
         <Link href='/'><a className='ed'>Ed</a></Link>
         <div className="nav-link">
             <Link href="/about"><a>À propos</a></Link>
-            <Link href="/projects"><a>Mes projects</a></Link>
+            <Link href="/projects"><a>Mes projets</a></Link>
             <a href="#">Cv</a>
             <Link href="/contact"><a>Contact</a></Link>
             <a href="https://github.com/EdwinDij" rel='noreferrer' target="_blank" title="Github profile" >b</a>

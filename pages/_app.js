@@ -3,7 +3,7 @@ import '../styles/navbar.scss';
 import '../styles/helloworld.scss';
 import '../styles/about.scss';
 import '../styles/projects.scss';
-
+import '../styles/contact.scss';
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
