@@ -109,7 +109,6 @@ export default function projects() {
             </figcaption>
             <a href="https://github.com/EdwinDij/EdwinDij-EdwinDijeont_6_03032022--" target="_blank" rel="noopener noreferrer"></a>
           </figure>
-
           <figure className="snip1504">
             <Image className='img-project'
               src={"/groupomania.png"}
