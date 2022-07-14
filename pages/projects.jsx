@@ -141,25 +141,6 @@ export default function projects() {
             </figcaption>
             <a href="https://github.com/EdwinDij/dijeont_edwin_n7_groupomania_020522" target="_blank" rel="noopener noreferrer"></a>
           </figure>
-
-          <figure className="snip1504">
-            <Image className='img-project'
-              src={"/portfolio.png"}
-              width={260}
-              height={260}
-              alt="sample57" />
-            <figcaption>
-              <h3 className='white'>Ce portfolio</h3>
-              <Image className='icon-project'
-                src={'/react.png'}
-                width={50}
-                height={50}
-                alt="icone tech"
-              />
-              <h3 className='white'>NextJs</h3>
-            </figcaption>
-            <Link href="/"><a></a></Link>
-          </figure>
         </div>
       </div>
     </motion.div>
