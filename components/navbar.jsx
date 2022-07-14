@@ -12,7 +12,7 @@ export default function navbar() {
             <Link href="/projects"><a>Mes projets</a></Link>
             <a href={"/Dijeont_CV.pdf"} target="_blank" rel="noreferrer">Cv</a>
             <Link href="/contact"><a>Contact</a></Link>
-            <a href="https://github.com/EdwinDij" rel='noreferrer' target="_blank" title="Github profile" >
+            <a href="https://github.com/EdwinDij" rel='noreferrer' target="_blank" title="Github profile">
               <Image 
               src={"/github.png"}
               width={25} 
@@ -20,7 +20,7 @@ export default function navbar() {
               alt="github icone"
               />
             </a>
-            <a href="https://linkedin.com/in/edwin-dijeont-1469a0226" rel='noreferrer' target="_blank" title="Linkedin profile" >
+            <a href="https://linkedin.com/in/edwin-dijeont-1469a0226" rel='noreferrer' target="_blank" title="Linkedin profile">
               <Image
               src={"/linkedin.png"}
               width={25} 
