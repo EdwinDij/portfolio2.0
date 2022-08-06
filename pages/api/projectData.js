@@ -1,11 +1,11 @@
-import Reservia from '../public/reservia.png';
-import Ohmyfood from '../public/ohmyfood.png';
-import ChouetteAgence from '../public/chouette-agence.png';
-import Kanap from '../public/kanap.png';
-import Piiquante from '../public/piiquante.jpg';
-import groupomania from '../public/groupomania.png';
-import todoList from '../public/todoList.png';
-import smoosh from '../public/smoosh.png';
+import Reservia from '../../public/reservia.png';
+import Ohmyfood from '../../public/ohmyfood.png';
+import ChouetteAgence from '../../public/chouette-agence.png';
+import Kanap from '../../public/kanap.png';
+import Piiquante from '../../public/piiquante.jpg';
+import groupomania from '../../public/groupomania.png';
+import todoList from '../../public/todoList.png';
+import smoosh from '../../public/smoosh.png';
 import React from 'react';
 
 export const projectItems = [

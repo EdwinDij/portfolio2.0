@@ -25,6 +25,10 @@
   cursor: pointer;
 }
 
+.project-card:hover {
+  transform: scale(1.05);
+}
+
 .img-project {
   border-radius: 0.5rem 0.5rem 0 0;
 }
