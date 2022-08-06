@@ -6,18 +6,6 @@ import Piiquante from '../public/piiquante.jpg';
 import groupomania from '../public/groupomania.png';
 import todoList from '../public/todoList.png';
 import smoosh from '../public/smoosh.png';
-//icones
-import React from '../public/icons8-react-native-48.png';
-import Node from '../public/icons8-node-js-48.png';
-import Mongo from '../public/icons8-mongodb-48.png';
-import Javascript from '../public/icons8-javascript-48.png';
-import html from '../public/icons8-html-5-48.png';
-import css from '../public/icons8-css3-48.png';
-import sass from '../public/icons8-sass-48.png';
-import firebase from '../public/icons8-firebase-48.png';
-import typescript from '../public/icons8-typescript-48.png';
-import mysql from '../public/icons8-logo-de-mysql-48.png';
-import figma from '../public/icons8-figma-48.png';
 
 export const projectItems = [
     {
