@@ -1,9 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
 import { motion } from "framer-motion"
-import Link from 'next/link'
+import { projectItems } from './projectData'
 
 export default function projects() {
+
+
   return (
     <motion.div
       initial={{ y: 200, opacity: 0 }}
@@ -13,20 +15,26 @@ export default function projects() {
       <div className="project-container">
         <div className="project">
 
-          <div className="project-card">
-            <div className="project-card-image">
-              <Image className='img-project'
-                src={"/reservia.png"}
-                width={450}
-                height={350}
-                alt="reservia" />
-                <div className="project-card-text">
-                <h2 className="project-card-title">Reservia</h2>
+          {projectItems.map((project, index) => {
+            return (
+              <div key={index} className="project-card">
+                <div className="project-card-image">
+                  <a href={project.link}  rel='noreferrer' target="_blank">
+                  <Image src={project.image}
+                    width={450}
+                    height={350}
+                    alt={project.alt}
+                    className="img-project" />
+                    <div className="project-card-text">
+                      <h2 className="project-card-title">{project.title}</h2>
+                      <div className='icons'>{project.icons}</div>
+                    </div>
+                    </a>
               </div>
-            </div>
+                </div>
+            )
+          })}
           </div>
-  
-        </div>
       </div>
     </motion.div>
 

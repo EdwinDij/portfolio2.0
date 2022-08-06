@@ -12,7 +12,7 @@
 .project {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 2rem;
+    gap: 2rem;
     position: absolute;
     @media screen and(max-width:768px) {
         display: flex;
@@ -39,3 +39,11 @@
     width: 345px;
   }
   }
+
+.project-card-text {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-right: 1rem;
+  flex-wrap: wrap;
+}

@@ -5,8 +5,8 @@ import '../styles/helloworld.scss';
 import '../styles/about.scss';
 import '../styles/projects.scss';
 import '../styles/contact.scss';
-
 import Navbar from '../components/navbar';
+
 
 function MyApp({ Component, pageProps }) {
   return (<div>
