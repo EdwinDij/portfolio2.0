@@ -48,7 +48,7 @@ export default function contact() {
                     <input name="name" type="text" className="feedback-input" placeholder="Name" />
                     <input name="email" type="text" className="feedback-input" placeholder="Email" />
                     <textarea name="message" className="feedback-input" placeholder="Message"></textarea>
-                    <input type="submit" value="submit" />
+                    <input type="submit" value="Envoyer" />
                 </form>
                 </div>
             </div>
