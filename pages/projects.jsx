@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { motion } from "framer-motion"
-import { projectItems } from './projectData'
+import { projectItems } from './api/projectData'
 
 export default function projects() {
 

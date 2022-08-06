@@ -6,6 +6,7 @@ import Piiquante from '../public/piiquante.jpg';
 import groupomania from '../public/groupomania.png';
 import todoList from '../public/todoList.png';
 import smoosh from '../public/smoosh.png';
+import React from 'react';
 
 export const projectItems = [
     {
