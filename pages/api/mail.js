@@ -22,7 +22,6 @@ export default  async function sendMail(req, res) {
     res.status(200).json({ status: 'Ok' });
   });
 
-  console.log(message)
-  console.log(body)
+
 }
 
